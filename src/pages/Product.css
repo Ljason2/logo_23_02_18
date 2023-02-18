@@ -1,0 +1,40 @@
+#productitem{
+    width: 1100px;
+    margin: 0 auto 35px;
+
+    background-color: #fff;
+    padding: 25px;
+    box-sizing: border-box;
+}
+
+
+#productitem>h1{
+    font-size: 35px;
+    margin-bottom: 25px;
+}
+
+
+#productitem>p:last-child{
+    font-size: 18px;
+    text-align: justify;
+}
+
+
+.topic{
+    width: 1000px;
+    margin: 0 auto 35px;
+}
+
+.topic dl{
+    padding: 25px;
+    margin: 0 auto 25px;
+    /* margin-bottom: 25px; */
+    background-color: #fff;
+}
+.topic dl>dt{
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+.topic dl>dd{
+    text-align: justify;
+}

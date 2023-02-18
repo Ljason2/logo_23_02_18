@@ -1,0 +1,49 @@
+#question>h1{
+
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#question> .container2{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+#question> .container2>p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+#question> .container2>div{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+#question> .container2>div>figure{
+width: calc(25% -1em);
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+}
+
+
+#question> .container2>div>figure dt{
+margin-bottom: 20px;
+
+}
+
+
+#question> .container2>div>figure dd{
+    margin-bottom: 20px;
+}

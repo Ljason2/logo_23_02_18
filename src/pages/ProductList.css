@@ -1,0 +1,78 @@
+
+
+#product{
+    width: 1000px;
+    margin: 0 auto 25px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+#product>h1{
+    font-size: 1.5em;
+    margin-bottom: 25px;
+}
+
+#product>form{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#product>form>input{
+    width: 80%;
+    border: none;
+    line-height: 30px;
+    box-sizing: border-box;
+}
+
+#product>form>button{
+    width: 20%;
+    border: none;
+    line-height: 30px;
+    background-color: #333;
+    color: white;
+    box-sizing: border-box;
+}
+
+
+#product .container{
+    padding: 10px;
+}
+
+
+#product .container>div{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+#product .container>div figure{
+    width: calc(25% - 1em);
+    margin: 0 0.5em 1em;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #666;
+}
+
+
+#product .container>div figure>img{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+#product .container>div figure dt{
+    font-size: 1.3em;
+    margin-bottom: 25px;
+    color: #666;
+}
+
+#product .container>div figure dt>a{
+}
+
+
+#product .container>div figure dd{
+    text-align: justify;
+    color: #666;
+}
